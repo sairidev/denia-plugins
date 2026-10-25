@@ -1,0 +1,137 @@
+{
+  "versi": 1,
+  "plugins": [
+    {
+      "id": "absen",
+      "nama": "Absen Grup",
+      "deskripsi": "Admin membuka absen dengan judul, anggota ketik .absen (boleh dengan keterangan), daftar hadir lengkap dengan jam. Data tetap ada walau bot restart.",
+      "kategori": "group",
+      "file": "plugins/group/absen.js",
+      "versi": "1.0.0",
+      "pembuat": "SairiDev",
+      "perintah": [".mulaiabsen", ".absen", ".listabsen", ".resetabsen"],
+      "tag": ["grup", "admin"]
+    },
+    {
+      "id": "catatan",
+      "nama": "Catatan Grup",
+      "deskripsi": "Simpan aturan, link, atau info grup dengan nama, lalu anggota memanggilnya kapan saja. Bisa disimpan dari pesan yang di-reply.",
+      "kategori": "group",
+      "file": "plugins/group/catatan.js",
+      "versi": "1.0.0",
+      "pembuat": "SairiDev",
+      "perintah": [".catatan", ".addcatatan", ".delcatatan"],
+      "tag": ["grup", "admin"]
+    },
+    {
+      "id": "polling",
+      "nama": "Polling WhatsApp",
+      "deskripsi": "Buat polling asli WhatsApp dari satu perintah. Bisa pilihan tunggal atau boleh pilih lebih dari satu.",
+      "kategori": "group",
+      "file": "plugins/group/polling.js",
+      "versi": "1.0.0",
+      "pembuat": "SairiDev",
+      "perintah": [".polling"],
+      "tag": ["grup"]
+    },
+    {
+      "id": "pengingat",
+      "nama": "Pengingat",
+      "deskripsi": "Bot mengingatkan dengan pesan dan tag setelah waktu tertentu (detik, menit, jam; maks. 24 jam). Pengingat hilang kalau bot restart.",
+      "kategori": "tools",
+      "file": "plugins/tools/pengingat.js",
+      "versi": "1.0.0",
+      "pembuat": "SairiDev",
+      "perintah": [".ingatkan", ".listingat", ".hapusingat"],
+      "tag": ["alat"]
+    },
+    {
+      "id": "hitungmundur",
+      "nama": "Hitung Mundur",
+      "deskripsi": "Berapa hari, jam, dan menit lagi menuju tanggal tertentu. Tanpa tanggal: menuju tahun baru.",
+      "kategori": "tools",
+      "file": "plugins/tools/hitungmundur.js",
+      "versi": "1.0.0",
+      "pembuat": "SairiDev",
+      "perintah": [".hitungmundur"],
+      "tag": ["alat"]
+    },
+    {
+      "id": "umur",
+      "nama": "Kalkulator Umur",
+      "deskripsi": "Umur tepat (tahun, bulan, hari), hari lahir, jumlah hari hidup, dan hitung mundur ulang tahun berikutnya.",
+      "kategori": "tools",
+      "file": "plugins/tools/umur.js",
+      "versi": "1.0.0",
+      "pembuat": "SairiDev",
+      "perintah": [".umur"],
+      "tag": ["alat"]
+    },
+    {
+      "id": "tebakangka",
+      "nama": "Tebak Angka",
+      "deskripsi": "Tebak angka 1-100 dengan petunjuk lebih besar/kecil. Yang benar dapat bonus limit (makin sedikit tebakan, makin banyak).",
+      "kategori": "games",
+      "file": "plugins/games/tebakangka.js",
+      "versi": "1.0.0",
+      "pembuat": "SairiDev",
+      "perintah": [".tebakangka", ".tebak", ".nyerahangka"],
+      "tag": ["game"]
+    },
+    {
+      "id": "suit",
+      "nama": "Suit",
+      "deskripsi": "Main batu, gunting, kertas melawan bot.",
+      "kategori": "games",
+      "file": "plugins/games/suit.js",
+      "versi": "1.0.0",
+      "pembuat": "SairiDev",
+      "perintah": [".suit"],
+      "tag": ["game"]
+    },
+    {
+      "id": "truthdare",
+      "nama": "Truth or Dare",
+      "deskripsi": "Pertanyaan jujur dan tantangan acak yang ringan dan aman untuk grup.",
+      "kategori": "fun",
+      "file": "plugins/fun/truthdare.js",
+      "versi": "1.0.0",
+      "pembuat": "SairiDev",
+      "perintah": [".truth", ".dare"],
+      "tag": ["hiburan"]
+    },
+    {
+      "id": "cekkhodam",
+      "nama": "Cek Khodam",
+      "deskripsi": "Hiburan: khodam lucu berdasarkan nama. Nama yang sama dapat hasil yang sama di hari yang sama.",
+      "kategori": "fun",
+      "file": "plugins/fun/cekkhodam.js",
+      "versi": "1.0.0",
+      "pembuat": "SairiDev",
+      "perintah": [".cekkhodam"],
+      "tag": ["hiburan"]
+    },
+    {
+      "id": "cekjodoh",
+      "nama": "Cek Jodoh",
+      "deskripsi": "Hiburan: persentase kecocokan dua nama, selalu sama untuk pasangan yang sama.",
+      "kategori": "fun",
+      "file": "plugins/fun/cekjodoh.js",
+      "versi": "1.0.0",
+      "pembuat": "SairiDev",
+      "perintah": [".cekjodoh"],
+      "tag": ["hiburan"]
+    },
+    {
+      "id": "quotes",
+      "nama": "Kata Penyemangat",
+      "deskripsi": "Kata-kata penyemangat acak dalam bahasa Indonesia.",
+      "kategori": "fun",
+      "file": "plugins/fun/quotes.js",
+      "versi": "1.0.0",
+      "pembuat": "SairiDev",
+      "perintah": [".quotes"],
+      "tag": ["hiburan"]
+    }
+  ]
+}
