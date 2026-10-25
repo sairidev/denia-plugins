@@ -1,6 +1,6 @@
 {
  "versi": 1,
- "dibuat": "2026-10-25T10:46:24.207Z",
+ "dibuat": "2026-10-25T11:32:19.673Z",
  "lib": {
   "AksesGrup.js": [
    "MODE_GRUP",
@@ -148,12 +148,16 @@
    "rapikanKata"
   ],
   "Kompat.js": [
+   "LIB_KOMPAT",
    "PAKET_BAILEYS",
+   "PAKET_KOMPAT",
    "UTILS",
    "adaptasiPlugin",
+   "before",
    "connKompat",
    "daftarPerintah",
    "default",
+   "disabled",
    "formatPlugin",
    "penggunaKompat",
    "pesanKompat",
@@ -351,19 +355,65 @@
   "@hapi/boom",
   "@napi-rs/image",
   "@sairidev/baileys-new",
+  "awesome-phonenumber",
   "axios",
+  "chalk",
   "cheerio",
   "fflate",
   "file-type",
   "form-data",
+  "formdata-node",
+  "got",
+  "human-readable",
   "jimp",
+  "lodash",
   "lru-cache",
+  "mime-types",
+  "moment-timezone",
   "node-fetch",
+  "node-webpmux",
   "p-queue",
   "pino",
   "qrcode",
-  "undici"
+  "similarity",
+  "undici",
+  "wa-sticker-formatter",
+  "yt-search"
  ],
+ "shim": {
+  "sticker": [
+   "default",
+   "sticker",
+   "sticker1",
+   "sticker2",
+   "sticker3",
+   "sticker4",
+   "sticker5",
+   "sticker6",
+   "stickerLine",
+   "video2webp",
+   "addExif",
+   "support"
+  ],
+  "uploadImage": [
+   "default"
+  ],
+  "uploadFile": [
+   "default"
+  ],
+  "webp2mp4": [
+   "default",
+   "webp2mp4",
+   "webp2png"
+  ],
+  "levelling": [
+   "default",
+   "growth",
+   "xpRange",
+   "findLevel",
+   "canLevelUp"
+  ]
+ },
  "perintah": [
   "-cmdstic",
   "-limit",
