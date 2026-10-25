@@ -1,6 +1,6 @@
 {
  "versi": 1,
- "dibuat": "2026-10-25T11:32:19.673Z",
+ "dibuat": "2026-10-25T14:51:08.203Z",
  "lib": {
   "AksesGrup.js": [
    "MODE_GRUP",
@@ -148,6 +148,7 @@
    "rapikanKata"
   ],
   "Kompat.js": [
+   "AKAR_KOMPAT",
    "LIB_KOMPAT",
    "PAKET_BAILEYS",
    "PAKET_KOMPAT",
@@ -158,10 +159,12 @@
    "daftarPerintah",
    "default",
    "disabled",
+   "fileKompat",
    "formatPlugin",
    "penggunaKompat",
    "pesanKompat",
-   "run"
+   "run",
+   "siapMuat"
   ],
   "KuisMatematika.js": [
    "TINGKAT_MTK",
@@ -355,14 +358,18 @@
   "@hapi/boom",
   "@napi-rs/image",
   "@sairidev/baileys-new",
+  "@vitalets/google-translate-api",
   "awesome-phonenumber",
   "axios",
   "chalk",
   "cheerio",
   "fflate",
   "file-type",
+  "fluent-ffmpeg",
   "form-data",
   "formdata-node",
+  "fs-extra",
+  "google-tts-api",
   "got",
   "human-readable",
   "jimp",
@@ -412,6 +419,60 @@
    "xpRange",
    "findLevel",
    "canLevelUp"
+  ],
+  "functions": [
+   "default",
+   "getBuffer",
+   "getGroupAdmins",
+   "getRandom",
+   "h2k",
+   "isUrl",
+   "Json",
+   "runtime",
+   "sleep",
+   "fetchJson",
+   "fetchBuffer",
+   "formatBytes",
+   "getSizeMedia"
+  ],
+  "functions2": [
+   "default",
+   "getBuffer",
+   "getGroupAdmins",
+   "getRandom",
+   "h2k",
+   "isUrl",
+   "Json",
+   "runtime",
+   "sleep",
+   "fetchJson",
+   "fetchBuffer",
+   "formatBytes",
+   "getSizeMedia"
+  ]
+ },
+ "akar": {
+  "command": [
+   "default",
+   "cmd",
+   "AddCommand",
+   "Function",
+   "Module",
+   "commands"
+  ],
+  "config": [
+   "default",
+   "*"
+  ],
+  "set": [
+   "default",
+   "*"
+  ],
+  "framework/zokou": [
+   "default",
+   "zokou",
+   "Zokou",
+   "cm"
   ]
  },
  "perintah": [
