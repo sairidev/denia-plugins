@@ -1,6 +1,6 @@
 {
  "versi": 1,
- "dibuat": "2026-10-25T15:27:08.348Z",
+ "dibuat": "2026-10-27T14:19:15.257Z",
  "lib": {
   "AksesGrup.js": [
    "MODE_GRUP",
@@ -131,6 +131,13 @@
    "mulaiF100",
    "papanF100",
    "tebakF100"
+  ],
+  "Gratis.js": [
+   "iklanGratis",
+   "isGratis",
+   "paksaSetelanGratis",
+   "teksTerkunciGratis",
+   "terkunciGratis"
   ],
   "hooks/native-guard-hooks.mjs": [
    "resolve"
@@ -667,6 +674,9 @@
   "fb",
   "fbmp3",
   "fbvn",
+  "features",
+  "fitur",
+  "fiturbot",
   "gayacc",
   "gc",
   "gcinfo",
@@ -940,6 +950,10 @@
   "tomp3",
   "totag",
   "totalchat",
+  "totalcmd",
+  "totalfeature",
+  "totalfitur",
+  "totalplugin",
   "tourl",
   "tovn",
   "toxicgc",
@@ -1052,12 +1066,14 @@
   "fake-wachannel.js",
   "fake-ytcomment.js",
   "family100.js",
+  "fitur.js",
   "gempa.js",
   "getgcsw.js",
   "getpp.js",
   "group-id.js",
   "group-info.js",
   "group-link.js",
+  "hapus-pesan.js",
   "image-generation.js",
   "instagram.js",
   "iqc.js",
