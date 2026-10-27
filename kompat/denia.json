@@ -1,6 +1,6 @@
 {
  "versi": 1,
- "dibuat": "2026-10-27T14:19:15.257Z",
+ "dibuat": "2026-10-27T23:23:57.104Z",
  "lib": {
   "AksesGrup.js": [
    "MODE_GRUP",
@@ -153,6 +153,14 @@
    "MAKS_PANJANG_KATA",
    "adaKataKasar",
    "rapikanKata"
+  ],
+  "kompat/baileys-lama.mjs": [
+   "GroupSettingChange",
+   "MessageType",
+   "Mimetype",
+   "Presence",
+   "WA_MESSAGE_STUB_TYPES",
+   "default"
   ],
   "Kompat.js": [
    "AKAR_KOMPAT",
@@ -474,6 +482,63 @@
    "fetchBuffer",
    "formatBytes",
    "getSizeMedia"
+  ],
+  "converter": [
+   "default",
+   "ffmpeg",
+   "toAudio",
+   "toAudio8k",
+   "toPTT",
+   "toVideo"
+  ],
+  "database": [
+   "default"
+  ],
+  "func": [
+   "default",
+   "pickRandom",
+   "ranNumb",
+   "delay",
+   "sleep",
+   "isNumber",
+   "padLead",
+   "readMore",
+   "isUrl",
+   "somematch",
+   "someincludes",
+   "clockString",
+   "niceBytes",
+   "cSize",
+   "runtime",
+   "runtimes",
+   "cleanHtml",
+   "getBuffer",
+   "fetchJson",
+   "xpRange",
+   "canLevelUp"
+  ],
+  "other-function": [
+   "default",
+   "pickRandom",
+   "ranNumb",
+   "delay",
+   "sleep",
+   "isNumber",
+   "padLead",
+   "readMore",
+   "isUrl",
+   "somematch",
+   "someincludes",
+   "clockString",
+   "niceBytes",
+   "cSize",
+   "runtime",
+   "runtimes",
+   "cleanHtml",
+   "getBuffer",
+   "fetchJson",
+   "xpRange",
+   "canLevelUp"
   ]
  },
  "akar": {
@@ -498,6 +563,15 @@
    "zokou",
    "Zokou",
    "cm"
+  ],
+  "framework/traduction": [
+   "default",
+   "traduire"
+  ],
+  "framework/dl/Function": [
+   "default",
+   "getBuffer",
+   "generateProfilePicture"
   ]
  },
  "perintah": [
