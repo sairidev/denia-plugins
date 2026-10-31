@@ -1,0 +1,18 @@
+{
+  "terbaru": "0.2.0-beta.19",
+  "rilis": [
+    {
+      "versi": "0.2.0-beta.19",
+      "tanggal": "31 Okt 2026",
+      "fitur": [
+        "Data bot tampil di panel: ringkasan, pengguna, aktivitas, perintah terpopuler",
+        "Atur perintah dari panel: siapa yang boleh, di mana, dan biaya limit",
+        "Teks balasan bisa diganti, dibalas reaksi saja, atau diam",
+        "Menu: kategori, tombol, footer, dan video (bentuk 2, 3, 9) bisa diatur dari panel",
+        "Level & peringkat grup dengan kartu .rank dan .top",
+        "Status bot (.sw) dan status terjadwal / harian dari panel"
+      ],
+      "perbaikan": []
+    }
+  ]
+}
