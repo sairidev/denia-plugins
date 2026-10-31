@@ -1,12 +1,19 @@
 {
  "versi": 1,
- "dibuat": "2026-10-28T13:55:08.281Z",
+ "dibuat": "2026-10-31T12:37:11.288Z",
  "lib": {
   "AksesGrup.js": [
    "MODE_GRUP",
    "PERINTAH_AKSES",
    "aturDaftar",
    "grupBoleh"
+  ],
+  "AturPerintah.js": [
+   "BERKAS_ATUR",
+   "TEKS_BAWAAN",
+   "aturanPerintah",
+   "bacaAtur",
+   "balasTolak"
   ],
   "Components/AntiSpam.js": [
    "default"
@@ -132,6 +139,22 @@
    "papanF100",
    "tebakF100"
   ],
+  "GayaMenu.js": [
+   "BERKAS_GAYA",
+   "GAYA_MENU",
+   "TOMBOL_BAWAAN",
+   "VARIABEL_GAYA",
+   "bacaGaya",
+   "blokKategori",
+   "daftarGayaTeks",
+   "siapkanBerkasGaya",
+   "simpanGaya",
+   "tampilanKategori",
+   "teksTombol",
+   "templateGaya",
+   "urutKategori",
+   "videoMenu"
+  ],
   "Gratis.js": [
    "iklanGratis",
    "isGratis",
@@ -148,6 +171,11 @@
    "resolve"
   ],
   "hooks/register.mjs": [],
+  "KartuLevel.js": [
+   "GAYA_NAIK",
+   "GAYA_RANK",
+   "kartuLevel"
+  ],
   "KataKasar.js": [
    "MAKS_KATA",
    "MAKS_PANJANG_KATA",
@@ -191,6 +219,15 @@
    "translateContent",
    "translateText"
   ],
+  "Level.js": [
+   "BERKAS_LEVEL",
+   "dataLevel",
+   "kartuAnggota",
+   "peringkat",
+   "setelanLevel",
+   "tambahXP",
+   "xpButuh"
+  ],
   "LinkBot.js": [
    "bolehGantiLink",
    "linkBot",
@@ -212,6 +249,10 @@
    "MAKS_TEKS_MEME",
    "buatMeme",
    "pisahTeksMeme"
+  ],
+  "PanelDasbor.js": [
+   "PanelDasbor",
+   "kunciHari"
   ],
   "PanelGrup.js": [
    "PanelGrup",
@@ -260,6 +301,9 @@
   "Status.js": [
    "qrStatus",
    "setStatus"
+  ],
+  "StatusTerjadwal.js": [
+   "StatusTerjadwal"
   ],
   "Store.js": [
    "DEFAULT_DONE",
@@ -834,6 +878,7 @@
   "labelupdate",
   "leaderboard",
   "left",
+  "level",
   "limit",
   "linkbot",
   "lirik",
@@ -876,6 +921,7 @@
   "owner",
   "p",
   "panduanplugin",
+  "peringkat",
   "pesanan",
   "pin",
   "pindl",
@@ -910,6 +956,7 @@
   "qwen",
   "r1",
   "ram",
+  "rank",
   "reactstatus",
   "readmessage",
   "readviewonce",
@@ -958,6 +1005,7 @@
   "setlinkbot",
   "setlist",
   "setmenu",
+  "setmenucmd",
   "setmenumessage",
   "setmenumusic",
   "setmodel",
@@ -994,6 +1042,7 @@
   "stalkff",
   "stalkml",
   "statistic",
+  "statusbot",
   "statusgc",
   "stele",
   "sticker",
@@ -1003,9 +1052,11 @@
   "stikertele",
   "stock",
   "stok",
+  "story",
   "surah",
   "susunkata",
   "svid",
+  "sw",
   "swgc",
   "swgrup",
   "swm",
@@ -1041,6 +1092,7 @@
   "toimg",
   "tolak",
   "tomp3",
+  "top",
   "totag",
   "totalchat",
   "totalcmd",
@@ -1176,6 +1228,7 @@
   "kata-kasar.js",
   "kurs.js",
   "leaderboard.js",
+  "level.js",
   "link-bot.js",
   "list-data.js",
   "list.js",
@@ -1230,6 +1283,7 @@
   "spotify.js",
   "stalk-sosial.js",
   "stalk.js",
+  "status-bot.js",
   "status-grup.js",
   "sticker-command.js",
   "sticker-watermark.js",
