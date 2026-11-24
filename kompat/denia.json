@@ -1,6 +1,6 @@
 {
  "versi": 1,
- "dibuat": "2026-11-24T12:18:19.376Z",
+ "dibuat": "2026-11-24T12:51:57.398Z",
  "lib": {
   "AksesGrup.js": [
    "MODE_GRUP",
@@ -317,12 +317,15 @@
    "henti",
    "ingatChatTautkan",
    "jedaLagu",
+   "kirimTeks",
    "lewati",
    "milikPlaycall",
    "mulai",
+   "padaKabar",
    "pastikanJalan",
    "pernahTertaut",
    "putar",
+   "putarLive",
    "putarSiap",
    "putuskan",
    "siapkan",
@@ -340,7 +343,8 @@
    "putuskan",
    "tautkan",
    "teksBantuan",
-   "teksStatus"
+   "teksStatus",
+   "tiktokCall"
   ],
   "PerintahKustom.js": [
    "FOLDER_MEDIA",
