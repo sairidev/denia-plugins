@@ -1,12 +1,17 @@
 {
  "versi": 1,
- "dibuat": "2026-11-25T13:36:02.465Z",
+ "dibuat": "2026-11-25T14:14:17.551Z",
  "lib": {
   "AksesGrup.js": [
    "MODE_GRUP",
    "PERINTAH_AKSES",
    "aturDaftar",
    "grupBoleh"
+  ],
+  "Album.js": [
+   "anggotaAlbum",
+   "cariInduk",
+   "unduhAnggota"
   ],
   "AturPerintah.js": [
    "BERKAS_ATUR",
@@ -1039,6 +1044,7 @@
   "order",
   "owner",
   "p",
+  "packstiker",
   "panduanplugin",
   "pc",
   "pengingat",
@@ -1160,6 +1166,7 @@
   "smim",
   "smooth",
   "sp",
+  "spack",
   "spotify",
   "spotplay",
   "spotsearch",
@@ -1179,8 +1186,10 @@
   "stickeraudio",
   "stickerly",
   "stickermeme",
+  "stickerpack",
   "stiker",
   "stikeraudio",
+  "stikerpack",
   "stikersuara",
   "stikertele",
   "stock",
@@ -1435,6 +1444,7 @@
   "status-grup.js",
   "sticker-audio.js",
   "sticker-command.js",
+  "sticker-pack.js",
   "sticker-watermark.js",
   "sticker.js",
   "stickerly.js",
