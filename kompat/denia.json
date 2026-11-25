@@ -1,6 +1,6 @@
 {
  "versi": 1,
- "dibuat": "2026-11-24T23:39:09.942Z",
+ "dibuat": "2026-11-25T04:10:17.572Z",
  "lib": {
   "AksesGrup.js": [
    "MODE_GRUP",
@@ -402,6 +402,7 @@
   "TeleponAI.js": [
    "BAHASA",
    "MAKS_MENIT",
+   "MAKS_MENIT_USER",
    "aktifDi",
    "bahasaDi",
    "cariBahasa",
