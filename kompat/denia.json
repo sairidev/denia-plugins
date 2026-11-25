@@ -1,6 +1,6 @@
 {
  "versi": 1,
- "dibuat": "2026-11-24T12:51:57.398Z",
+ "dibuat": "2026-11-24T23:39:09.942Z",
  "lib": {
   "AksesGrup.js": [
    "MODE_GRUP",
@@ -325,9 +325,11 @@
    "pastikanJalan",
    "pernahTertaut",
    "putar",
+   "putarJawaban",
    "putarLive",
    "putarSiap",
    "putuskan",
+   "senyap",
    "siapkan",
    "status",
    "tautkan",
@@ -344,6 +346,7 @@
    "tautkan",
    "teksBantuan",
    "teksStatus",
+   "teleponAI",
    "tiktokCall"
   ],
   "PerintahKustom.js": [
@@ -395,6 +398,17 @@
    "renderToko",
    "rupiah",
    "simpanGambar"
+  ],
+  "TeleponAI.js": [
+   "BAHASA",
+   "MAKS_MENIT",
+   "aktifDi",
+   "bahasaDi",
+   "cariBahasa",
+   "gantiBahasa",
+   "pasangSesi",
+   "rapikanUcapan",
+   "siapkanSesi"
   ],
   "Template.js": [
    "DEFAULT_LEAVE",
@@ -743,6 +757,7 @@
   "afk",
   "afknotifier",
   "ai",
+  "aicall",
   "aiimage",
   "aio",
   "aiportrait",
@@ -808,6 +823,7 @@
   "caklontong",
   "cal",
   "calculator",
+  "callai",
   "callplay",
   "callvideo",
   "capcut",
@@ -1193,7 +1209,9 @@
   "tebakprofesi",
   "tekateki",
   "telephone",
+  "teleponai",
   "telesticker",
+  "telponai",
   "tempmail",
   "text2img",
   "text2qr",
@@ -1414,6 +1432,7 @@
   "sticker.js",
   "stickerly.js",
   "telegram-sticker.js",
+  "teleponai.js",
   "temp-mail.js",
   "test.js",
   "text-2-qr.js",
